@@ -9,6 +9,8 @@ app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Import the Todo model
+
 const { Todo } = require('./models/Todo.js');
 
 //post a to do
