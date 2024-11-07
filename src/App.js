@@ -5,14 +5,14 @@ import PostToDoItem from './PostToDoItem.js';
 import './style.css';
 
 const App = (props) => {
-	const [flag, setFlag] = useState();
+  const [flag, setFlag] = useState();
 
-	return (
-		<>
-			<PostToDoItem setFlag={setFlag} />
-			<GetToDoItems flag={flag} setFlag={setFlag} />
-		</>
-	);
+  return (
+    <>
+      <PostToDoItem setFlag={setFlag} />
+      <GetToDoItems flag={flag} setFlag={setFlag} />
+    </>
+  );
 };
 
 export default App;
